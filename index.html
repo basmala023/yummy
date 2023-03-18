@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="icon" href="images/logo (1).png">
+        <title>Yummy Website</title>
+    </head>
+    <body>
+        <!-- side nav menu -->
+        <div class="side-nav-menu">
+            <div class="navbar-collapse p-4">
+                <div class="links backInUp">
+                    <ul>
+                        <li>
+                            <a onclick="searchMeal()" href="#" class="py2">search</a>
+                        </li>
+                        <li>
+                            <a onclick="getCategory()" href="#"class="py2">Categories</a>
+                        </li>
+                        <li>
+                            <a onclick="getArea()" href="#"class="py2">Area</a>
+                        </li>
+                        <li>
+                            <a onclick="getIngrediants()" href="#"class="py2">Ingredients</a>
+                        </li>
+                        <li>
+                            <a onclick="contact()"  href="#"class="py2">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-footer">
+                    <div class="social-media">
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                      
+                        <a href="#">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-globe"></i>
+                        </a>
+                        <div class="text">
+                            <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+            <div class="navbar-header">
+                <img src="images/logo (1).png" alt="">
+                <i class="bi bi-list"id="openBtn"></i>
+                <i class="bi bi-x d-none"id="closeBtn"></i>
+                <div class="icons">
+                    <i class="bi bi-globe"></i>
+                    <i class="bi bi-share-fill"></i>
+                </div>
+            </div>
+           
+        </div>
+        <!-- end of side nav menu -->
+        <!-- section search -->
+        <div class="container w-75" id="searchContainer">
+            <!-- <div class="row py-4 ">
+                <div class="col-md-6 ">
+                    <input onkeyup="searchByName(this.value)" class="form-control bg-transparent text-white" type="text" placeholder="Search By Name">
+                </div>
+                <div class="col-md-6">
+                    <input onkeyup="searchByLetter(this.value)" maxlength="1" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">
+                </div>
+            </div> -->
+        </div>
+        <!-- end of section search -->
+
+        <!-- section meal -->
+        <section class="meals">
+            <div class="container">
+                <div class="row g-4 py-5 mt-2" id="mealsData">
+                  <!--
+                     <div class="col-md-3">
+                    <div class="mael-item">
+                            <img src="images/58oia61564916529.jpg" class="w-100 " alt="">
+                            <div class="layer">
+                                <h3>cobra</h3>
+                            </div>
+                       
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="mael-item">
+                        
+                            <img src="images/58oia61564916529.jpg" class="w-100" alt="">
+                            <div class="layer">
+                                <h3>cobra</h3>
+                            </div>
+                        
+                       </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="mael-item">
+                       
+                            <img src="images/58oia61564916529.jpg" class="w-100" alt="">
+                            <div class="layer">
+                                <h3>cobra</h3>
+                            </div>
+                        
+                       </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="mael-item">
+                        
+                            <img src="images/58oia61564916529.jpg" class="w-100" alt="">
+                            <div class="layer">
+                                <h3>cobra</h3>
+                            </div>
+                       
+                       </div>
+                  </div> -->
+                
+                </div>
+            </div>
+
+        </section>
+        <div class="loading d-none">
+            <span class="loader"></span>
+             </div>
+             <!-- end of section meal -->
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
